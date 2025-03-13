@@ -66,10 +66,10 @@ How It Works
 Results
 
 The system provides accurate fashion recommendations based on deep image features. Below is an example of the output:
-
+![shoes](https://github.com/user-attachments/assets/39cdd8e5-8c1f-4942-9677-32a55542589b)
 
 📌 The uploaded shoe image is processed, and the most visually similar shoes are displayed in the web app.
-![shoes](https://github.com/user-attachments/assets/46dae74a-443d-4503-9037-bced42101af0)
+
 
 Future Improvements
 
