@@ -69,6 +69,7 @@ The system provides accurate fashion recommendations based on deep image feature
 
 
 📌 The uploaded shoe image is processed, and the most visually similar shoes are displayed in the web app.
+![shoes](https://github.com/user-attachments/assets/46dae74a-443d-4503-9037-bced42101af0)
 
 Future Improvements
 
