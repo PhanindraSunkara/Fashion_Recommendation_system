@@ -5,6 +5,8 @@ Fashion Recommendation System
 
 The Fashion Recommendation System is an AI-based application designed to suggest visually similar fashion products based on an uploaded image. It utilizes Deep Learning (ResNet50) for feature extraction and k-Nearest Neighbors (k-NN) for similarity search, ensuring accurate and efficient recommendations.
 
+---
+
 #Features
 
 Users can upload an image to find similar fashion products.
@@ -13,6 +15,7 @@ It uses k-NN with Euclidean distance to find top-5 similar products.
 Precomputed feature vectors allow for fast and real-time recommendations.
 The system includes an interactive web application built with Streamlit for a seamless user experience.
 
+---
 
 #Tech Stack
 
@@ -24,11 +27,14 @@ Streamlit for the web application
 OpenCV and NumPy for image processing
 Pandas for dataset handling
 
+---
 
 #Dataset
 
 The model is trained on the Fashion Product Images Dataset available on Kaggle. This dataset contains diverse categories of fashion items, making it suitable for recommendation systems.
 📌 You can download the dataset from: https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
+
+---
 
 #Installation Guide
 
@@ -54,6 +60,8 @@ Step 5: Start the Web Application
 Run the following command to launch the Streamlit web app:
 streamlit run app.py
 
+---
+
 How It Works
 
 1. Users upload an image of a fashion product through the web app.
@@ -61,7 +69,7 @@ How It Works
 3. A k-NN similarity search retrieves the top-5 matching products based on Euclidean distance.
 4. The recommended products are displayed in the web application.
 
-
+---
 
 Results
 
@@ -70,6 +78,7 @@ The system provides accurate fashion recommendations based on deep image feature
 
 📌 The uploaded shoe image is processed, and the most visually similar shoes are displayed in the web app.
 
+---
 
 Future Improvements
 
@@ -78,6 +87,8 @@ To enhance the system, the following improvements can be implemented:
 🚀 Integrate text-based attributes (e.g., brand, color, category) to enhance recommendations.
 🚀 Deploy on Cloud Platforms (AWS, Google Cloud) for better scalability and performance.
 🚀 Expand to more fashion categories like accessories, eyewear, and clothing.
+
+---
 
 Contributing
 
