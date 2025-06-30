@@ -36,30 +36,31 @@ The model is trained on the Fashion Product Images Dataset available on Kaggle. 
 
 ---
 
-#Installation Guide
-
+##Installation Guide
+```
 Follow these steps to set up and run the Fashion Recommendation System:
 
-Step 1: Clone the Repository
+#Step 1: Clone the Repository
 Open your terminal or command prompt and run:
 git clone https://github.com/PhanindraSunkara/Fashion_Recommendation_System.git  
 cd Fashion-Recommendation-System
 
-Step 2: Install Required Dependencies
+#Step 2: Install Required Dependencies
 Ensure you have Python 3.7+ installed, then run:
 pip install -r requirements.txt
 
-Step 3: Download and Extract Dataset
+#Step 3: Download and Extract Dataset
 Download the dataset from Kaggle and place it inside the project folder.
 
-Step 4: Run Feature Extraction and Model Training
+#Step 4: Run Feature Extraction and Model Training
 This step runs only once to extract features and train the k-NN model:
 python main.py
 
-Step 5: Start the Web Application
+#Step 5: Start the Web Application
 Run the following command to launch the Streamlit web app:
 streamlit run app.py
 
+```
 ---
 
 How It Works
